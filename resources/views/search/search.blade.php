@@ -96,8 +96,9 @@
 								<div class="col-xs-12 col-md-4">
 									<div class="form-group">
 										<label class="fs-12" for="range_input">Ценови диапазон</label>
+											<div class="test" name="test" id="test"></div>
+											<input type="hidden" id="price" name="price">
 											<input name="range_price" id="range_input" type="text" class="slider_amount" readonly>
-											<input name="range" id="range_input" type="hidden" class="slider_amount">
 											<div name="range_div" id="range_div" class="slider-range"></div>
 									</div>
 								</div>
@@ -139,8 +140,8 @@
 								</div>
 
 								<div class="col-xs-12 col-md-4">
-									<div class="form-group" style="padding: 25px;">
-										<button type="submit" class="btn btn-default">Стартирай търсене</button>
+									<div class="form-group" style="padding-top: 24px;">
+										<button type="submit" class="btn btn-default" id="btn" style="display: inline-block; width: 100%">Стартирай търсене</button>
 									</div>
 								</div>
 							</div>
@@ -167,7 +168,6 @@
 <script src="{{ asset('js/jquery-ui.js') }}"></script>
 
 <script src="{{ asset('js/script.js') }}"></script>
-<script src="{{ asset('js/searchCount.js') }}"></script>
 <script src="{{ asset('js/jquery.chained.min.js') }}"></script>
 
 <script type="text/javascript">

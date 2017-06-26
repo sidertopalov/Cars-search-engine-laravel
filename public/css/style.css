@@ -145,6 +145,11 @@
 	font-size: 21px;
 }
 
+#btn{
+	display: inline-block; 
+	width: 100%
+}
+
 @media (min-width: 640px){
 	.col-md-4 {
 		width: 33.33%;
